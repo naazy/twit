@@ -1,0 +1,24 @@
+{
+  "name": "twit",
+  "version": "1.0.0",
+  "description": "My twitter clone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naazy/twit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naazy/twit/issues"
+  },
+  "homepage": "https://github.com/naazy/twit#readme",
+  "dependencies": {
+    "hiredis": "^0.4.1",
+    "redis": "^2.1.0"
+  }
+}
